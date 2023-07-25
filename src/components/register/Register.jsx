@@ -6,12 +6,13 @@ import Axios from 'axios'
 
 // Import the media
 import video from '../../media/video.mp4'
-import logo from '../../media/logo.png'
+import logo from '../../media/image-for-dashboard.png'
 
 // Import icons
 import {BsFillShieldLockFill} from 'react-icons/bs'
 import {AiOutlineSwapRight} from 'react-icons/ai'
 import {MdMarkEmailRead} from 'react-icons/md'
+import {FaUserShield} from 'react-icons/fa'
 
 const Register = () => {
     const [email, setEmail] = useState('')
@@ -70,7 +71,7 @@ const Register = () => {
                     <div className="inputDiv">
                         <label htmlFor="username">Username</label>
                         <div className="input flex">
-                            <MdMarkEmailRead className='icon'/>
+                            <FaUserShield className='icon'/>
                             <input type="text" id='username' placeholder='Enter Username' onChange={(event)=>{
                                 setUsername(event.target.value)
                             }}/>
@@ -91,10 +92,6 @@ const Register = () => {
                         <span>Register</span>
                         <AiOutlineSwapRight className='icon'/>
                     </button>
-
-                    <span className='forgotPassword'>
-                        Forgot your password? <a href="">Click Here</a>
-                    </span>
                     
                 </form>
                 </div>

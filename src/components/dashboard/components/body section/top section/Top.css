@@ -158,11 +158,11 @@
 }
 .topSection .cardSection .leftCard .main .textDiv h1 {
   font-size: var(--h1FontSize);
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   color: var(--blackColor);
 }
 .topSection .cardSection .leftCard .main .textDiv .flex {
-  gap: 1.5rem;
+  gap: 0.5rem;
   font-weight: 500;
   color: var(--blackColor);
 }

@@ -11,7 +11,7 @@ const Listing = () => {
     <div className='listingSection'>
 
       <div className="heading flex">
-        <h1>My Listings</h1>
+        <h1>Articles</h1>
         <button className='btn flex'>
           See All <BsArrowRightShort className="icon"/>
         </button>
@@ -21,22 +21,22 @@ const Listing = () => {
         <div className="singleItem">
           <AiFillHeart className="icon"/>
           <img src={img} alt="Image Name" />
-          <h3>Annual Vince</h3>
+          <h3>Lorem, ipsum.</h3>
         </div>
         <div className="singleItem">
           <AiOutlineHeart className="icon"/>
           <img src={img} alt="Image Name" />
-          <h3>Annual Vince</h3>
+          <h3>Lorem, ipsum.</h3>
         </div>
         <div className="singleItem">
           <AiOutlineHeart className="icon"/>
           <img src={img} alt="Image Name" />
-          <h3>Annual Vince</h3>
+          <h3>Lorem, ipsum.</h3>
         </div>
         <div className="singleItem">
           <AiFillHeart className="icon"/>
           <img src={img} alt="Image Name" />
-          <h3>Annual Vince</h3>
+          <h3>Lorem, ipsum.</h3>
         </div>
       </div>
 
@@ -44,7 +44,7 @@ const Listing = () => {
 
         <div className="topSellers">
           <div className="heading flex">
-            <h3>Top Sellers</h3>
+            <h3>Top Advisers</h3>
             <button className='btn flex'>
               See All <BsArrowRightShort className="icon"/>
             </button>
@@ -70,7 +70,7 @@ const Listing = () => {
 
         <div className="featuredSellers">
           <div className="heading flex">
-            <h3>Featured Sellers</h3>
+            <h3>Featured Advisers</h3>
             <button className='btn flex'>
               See All <BsArrowRightShort className="icon"/>
             </button>

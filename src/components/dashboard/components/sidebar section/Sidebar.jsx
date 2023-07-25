@@ -18,29 +18,29 @@ const Sidebar = () => {
 
         <div className="logoDiv flex">
             <img src={img} alt="Image Name" />
-            <h2>Sidebar</h2>
+            <h2>WebAccount</h2>
         </div>
 
         <div className="menuDiv">
             <h3 className="divTitle">
                 MENU
             </h3>
-            <ul className="menuLists grid">
-                
-                <li className="listItem">
-                    <a href="#" className='menuLink'>
-                        <BiSolidInbox className="icon"/>
-                        <span className="smallText">
-                            Inbox
-                        </span>
-                    </a>
-                </li>
-                
+            <ul className="menuLists grid">                
+                         
                 <li className="listItem">
                     <a href="#" className='menuLink'>
                         <MdDashboard className="icon"/>
                         <span className="smallText">
                             Dashboard
+                        </span>
+                    </a>
+                </li>
+
+                <li className="listItem">
+                    <a href="#" className='menuLink'>
+                        <BiSolidInbox className="icon"/>
+                        <span className="smallText">
+                            Inbox
                         </span>
                     </a>
                 </li>

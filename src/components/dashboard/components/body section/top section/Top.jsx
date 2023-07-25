@@ -17,12 +17,12 @@ const Top = () => {
     <div className='topSection'>
         <div className="headerSection flex">
             <div className="title">
-                <h1>Welcome to the Website</h1>
-                <p>Hello Mark J. Welcome Back!</p>
+                <h1>Accounting Website</h1>
+                <p>Welcome Back Admin!</p>
             </div>
 
             <div className="searchBar flex">
-                <input type="text" placeholder='Search Dashboard'/>
+                <input type="text" placeholder='Search'/>
                 <BiSearchAlt className='icon'/>
             </div>
 
@@ -38,12 +38,12 @@ const Top = () => {
 
         <div className="cardSection flex">
             <div className="rightCard flex">
-                <h1>Create and sell extraordinary products.</h1>
+                <h1>Advise and create financial solutions.</h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
 
                 <div className="buttons flex">
                     <button className='btn'>Explore More</button>
-                    <button className='btn transparent'>Top Sellers</button>
+                    <button className='btn transparent'>Top News</button>
                 </div>
 
                 <div className="videoDiv">
@@ -55,19 +55,19 @@ const Top = () => {
                 <div className="main flex">
 
                     <div className="textDiv">
-                        <h1>My Stat</h1>
+                        <h1>Bank Accounts</h1>
 
                         <div className="flex">
                             <span>
-                                Today <br /> <small>4 Orders</small>
+                                Today <br /> <small>4 Accounts Secured</small>
                             </span>
                             <span>
-                                This Month <br /> <small>127 Orders</small>
+                                This Month <br /> <small>27 Accounts Secured</small>
                             </span>
                         </div>
 
                         <span className='flex link'>
-                            Go to my orders <BsArrowRightShort className='icon'/>
+                            See More <BsArrowRightShort className='icon'/>
                         </span>
 
                     </div>

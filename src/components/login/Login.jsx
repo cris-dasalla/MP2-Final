@@ -6,7 +6,7 @@ import Axios from 'axios'
 
 // Import the media
 import video from '../../media/video.mp4'
-import logo from '../../media/logo.png'
+import logo from '../../media/image-for-dashboard.png'
 
 // Import icons
 import {FaUserShield} from 'react-icons/fa'
